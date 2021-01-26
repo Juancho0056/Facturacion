@@ -1,0 +1,296 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>VentasApp.WebUI</name>
+    </assembly>
+    <members>
+        <member name="M:VentasApp.WebUI.Controllers.ApiController.Command``2(``0)">
+            <summary>
+            
+            </summary>
+            <typeparam name="Request"></typeparam>
+            <typeparam name="Response"></typeparam>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VentasApp.WebUI.Controllers.ApiController.Query``2(``0)">
+            <summary>
+            
+            </summary>
+            <typeparam name="Request"></typeparam>
+            <typeparam name="Response"></typeparam>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:VentasApp.WebUI.Controllers.ArticuloController.Create(Application.CommandQueries.Articulos.Command.Create.CreateArticuloRequest)">
+            <summary>
+            Add Articulo
+            </summary>
+            <remarks>
+            Create new record for Articulo
+            </remarks>
+            <param name="command">Instance for CreateArticuloRequest</param>
+            <returns></returns>
+        </member>
+        <member name="M:VentasApp.WebUI.Controllers.ArticuloController.Update(Application.CommandQueries.Articulos.Command.Update.UpdateArticuloRequest)">
+            <summary>
+            Update Articulo
+            </summary>
+            <remarks>
+            Update a specific record for Articulo
+            </remarks>
+            <param name="command">Instance for UpdateArticuloRequest</param>
+            <returns></returns>
+        </member>
+        <member name="T:VentasApp.WebUI.Controllers.AuthController">
+            <summary>
+            Controlador de acciones Usuario
+            </summary>
+        </member>
+        <member name="M:VentasApp.WebUI.Controllers.ClaseController.Create(Application.CommandQueries.Clases.Command.Create.CreateClaseRequest)">
+            <summary>
+            Add Clase
+            </summary>
+            <remarks>
+            Create new record for Clase
+            </remarks>
+            <param name="command">Instance for CreateClaseRequest</param>
+            <returns></returns>
+        </member>
+        <member name="M:VentasApp.WebUI.Controllers.ClaseController.Update(Application.CommandQueries.Clases.Command.Update.UpdateClaseRequest)">
+            <summary>
+            Update Clase
+            </summary>
+            <remarks>
+            Update a specific record for Clase
+            </remarks>
+            <param name="command">Instance for UpdateClaseRequest</param>
+            <returns></returns>
+        </member>
+        <member name="M:VentasApp.WebUI.Controllers.ContableController.Create(Application.CommandQueries.Contables.Command.Create.CreateContableRequest)">
+            <summary>
+            Add Contable
+            </summary>
+            <remarks>
+            Create new record for Contable
+            </remarks>
+            <param name="command">Instance for CreateContableRequest</param>
+            <returns></returns>
+        </member>
+        <member name="M:VentasApp.WebUI.Controllers.ContableController.Update(Application.CommandQueries.Contables.Command.Update.UpdateContableRequest)">
+            <summary>
+            Update Contable
+            </summary>
+            <remarks>
+            Update a specific record for Contable
+            </remarks>
+            <param name="command">Instance for UpdateContableRequest</param>
+            <returns></returns>
+        </member>
+        <member name="M:VentasApp.WebUI.Controllers.GrupoController.Create(Application.CommandQueries.Grupos.Command.Create.CreateGrupoRequest)">
+            <summary>
+            Add Grupo
+            </summary>
+            <remarks>
+            Create new record for Grupo
+            </remarks>
+            <param name="command">Instance for CreateGrupoRequest</param>
+            <returns></returns>
+        </member>
+        <member name="M:VentasApp.WebUI.Controllers.GrupoController.Update(Application.CommandQueries.Grupos.Command.Update.UpdateGrupoRequest)">
+            <summary>
+            Update Grupo
+            </summary>
+            <remarks>
+            Update a specific record for Grupo
+            </remarks>
+            <param name="command">Instance for UpdateGrupoRequest</param>
+            <returns></returns>
+        </member>
+        <member name="M:VentasApp.WebUI.Controllers.MarcaController.Create(Application.CommandQueries.Marcas.Command.Create.CreateMarcaRequest)">
+            <summary>
+            Add Marca
+            </summary>
+            <remarks>
+            Create new record for Marca
+            </remarks>
+            <param name="command">Instance for CreateMarcaRequest</param>
+            <returns></returns>
+        </member>
+        <member name="M:VentasApp.WebUI.Controllers.MarcaController.Update(Application.CommandQueries.Marcas.Command.Update.UpdateMarcaRequest)">
+            <summary>
+            Update Marca
+            </summary>
+            <remarks>
+            Update a specific record for Marca
+            </remarks>
+            <param name="command">Instance for UpdateMarcaRequest</param>
+            <returns></returns>
+        </member>
+        <member name="M:VentasApp.WebUI.Controllers.MenuController.Create(Application.CommandQueries.Menus.Command.Create.CreateMenuRequest)">
+            <summary>
+            Add Menu
+            </summary>
+            <remarks>
+            Create new record for Menu
+            </remarks>
+            <param name="command">Instance for CreateMenuRequest</param>
+            <returns></returns>
+        </member>
+        <member name="M:VentasApp.WebUI.Controllers.MenuController.Update(Application.CommandQueries.Menus.Command.Update.UpdateMenuRequest)">
+            <summary>
+            Update Menu
+            </summary>
+            <remarks>
+            Update a specific record for Menu
+            </remarks>
+            <param name="command">Instance for UpdateMenuRequest</param>
+            <returns></returns>
+        </member>
+        <member name="M:VentasApp.WebUI.Controllers.MenuRoleController.Create(Application.Application.MenuRoles.Command.Create.CreateMenuRoleRequest)">
+            <summary>
+            Add MenuRole
+            </summary>
+            <remarks>
+            Create new record for MenuRole
+            </remarks>
+            <param name="command">Instance for CreateMenuRoleRequest</param>
+            <returns></returns>
+        </member>
+        <member name="M:VentasApp.WebUI.Controllers.MenuRoleController.Update(Application.Application.MenuRoles.Command.Update.UpdateMenuRoleRequest)">
+            <summary>
+            Update MenuRole
+            </summary>
+            <remarks>
+            Update a specific record for MenuRole
+            </remarks>
+            <param name="command">Instance for UpdateMenuRoleRequest</param>
+            <returns></returns>
+        </member>
+        <member name="M:VentasApp.WebUI.Controllers.PaginaController.Create(Application.CommandQueries.Paginas.Command.Create.CreatePaginaRequest)">
+            <summary>
+            Add Pagina
+            </summary>
+            <remarks>
+            Create new record for Pagina
+            </remarks>
+            <param name="command">Instance for CreatePaginaRequest</param>
+            <returns></returns>
+        </member>
+        <member name="M:VentasApp.WebUI.Controllers.PaginaController.Update(Application.CommandQueries.Paginas.Command.Update.UpdatePaginaRequest)">
+            <summary>
+            Update Pagina
+            </summary>
+            <remarks>
+            Update a specific record for Pagina
+            </remarks>
+            <param name="command">Instance for UpdatePaginaRequest</param>
+            <returns></returns>
+        </member>
+        <member name="M:VentasApp.WebUI.Controllers.PermisoController.Create(Application.CommandQueries.Permisos.Command.Create.CreatePermisoRequest)">
+            <summary>
+            Add Permiso
+            </summary>
+            <remarks>
+            Create new record for Permiso
+            </remarks>
+            <param name="command">Instance for CreatePermisoRequest</param>
+            <returns></returns>
+        </member>
+        <member name="M:VentasApp.WebUI.Controllers.PermisoController.Update(Application.CommandQueries.Permisos.Command.Update.UpdatePermisoRequest)">
+            <summary>
+            Update Permiso
+            </summary>
+            <remarks>
+            Update a specific record for Permiso
+            </remarks>
+            <param name="command">Instance for UpdatePermisoRequest</param>
+            <returns></returns>
+        </member>
+        <member name="M:VentasApp.WebUI.Controllers.RolController.Create(CommandsQueries.Application.Roles.Command.Create.CreateRoleRequest)">
+            <summary>
+            Add Rol
+            </summary>
+            <remarks>
+            Create new record for Rol
+            </remarks>
+            <param name="command">Instance for CreateRolRequest</param>
+            <returns></returns>
+        </member>
+        <member name="M:VentasApp.WebUI.Controllers.RolController.Update(CommandsQueries.Application.Roles.Command.Update.UpdateRoleRequest)">
+            <summary>
+            Update Rol
+            </summary>
+            <remarks>
+            Update a specific record for Rol
+            </remarks>
+            <param name="command">Instance for UpdateRolRequest</param>
+            <returns></returns>
+        </member>
+        <member name="M:VentasApp.WebUI.Controllers.UnidadMedidaController.Create(Application.CommandQueries.UnidadMedidas.Command.Create.CreateUnidadMedidaRequest)">
+            <summary>
+            Add UnidadMedida
+            </summary>
+            <remarks>
+            Create new record for UnidadMedida
+            </remarks>
+            <param name="command">Instance for CreateUnidadMedidaRequest</param>
+            <returns></returns>
+        </member>
+        <member name="M:VentasApp.WebUI.Controllers.UnidadMedidaController.Update(Application.CommandQueries.UnidadMedidas.Command.Update.UpdateUnidadMedidaRequest)">
+            <summary>
+            Update UnidadMedida
+            </summary>
+            <remarks>
+            Update a specific record for UnidadMedida
+            </remarks>
+            <param name="command">Instance for UpdateUnidadMedidaRequest</param>
+            <returns></returns>
+        </member>
+        <member name="M:VentasApp.WebUI.Controllers.UserController.Create(Application.Application.Users.Command.Create.CreateUserRequest)">
+            <summary>
+            Add ApplicationUSer
+            </summary>
+            <remarks>
+            Create new record for ApplicationUser
+            </remarks>
+            <param name="command">Instance for CreateUserRequest</param>
+            <returns></returns>
+        </member>
+        <member name="F:VentasApp.WebUI.Support.Configuration.Configuration.SwaggerConfiguration.Version1">
+            <summary>
+            Swagger Version.
+            </summary>
+        </member>
+        <member name="F:VentasApp.WebUI.Support.Configuration.Configuration.SwaggerConfiguration.Title">
+            <summary>
+            Swagger TermsOfService.
+            </summary>
+        </member>
+        <member name="F:VentasApp.WebUI.Support.Configuration.Configuration.SwaggerConfiguration.Description">
+            <summary>
+            Swagger Description.
+            </summary>
+        </member>
+        <member name="F:VentasApp.WebUI.Support.Configuration.Configuration.SwaggerConfiguration.TermsOfService">
+            <summary>
+            Swagger TermsOfService.
+            </summary>
+        </member>
+        <member name="F:VentasApp.WebUI.Support.Configuration.Configuration.SwaggerConfiguration.ContactName">
+            <summary>
+            Swagger ContactName.
+            </summary>
+        </member>
+        <member name="F:VentasApp.WebUI.Support.Configuration.Configuration.SwaggerConfiguration.ContactEmail">
+            <summary>
+            Swagger ContactEmail.
+            </summary>
+        </member>
+        <member name="F:VentasApp.WebUI.Support.Configuration.Configuration.SwaggerConfiguration.ContactUrl">
+            <summary>
+            Swagger ContactUrl.
+            </summary>
+        </member>
+    </members>
+</doc>

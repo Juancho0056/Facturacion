@@ -1,0 +1,10 @@
+C:\Users\juanc\source\repos\VentasDesktop\VentasService\bin\Debug\VentasService.dll
+C:\Users\juanc\source\repos\VentasDesktop\VentasService\bin\Debug\VentasService.pdb
+C:\Users\juanc\source\repos\VentasDesktop\VentasService\bin\Debug\Newtonsoft.Json.dll
+C:\Users\juanc\source\repos\VentasDesktop\VentasService\bin\Debug\VentasModel.dll
+C:\Users\juanc\source\repos\VentasDesktop\VentasService\bin\Debug\VentasModel.pdb
+C:\Users\juanc\source\repos\VentasDesktop\VentasService\bin\Debug\Newtonsoft.Json.xml
+C:\Users\juanc\source\repos\VentasDesktop\VentasService\obj\Debug\VentasService.csprojAssemblyReference.cache
+C:\Users\juanc\source\repos\VentasDesktop\VentasService\obj\Debug\VentasService.csproj.CopyComplete
+C:\Users\juanc\source\repos\VentasDesktop\VentasService\obj\Debug\VentasService.dll
+C:\Users\juanc\source\repos\VentasDesktop\VentasService\obj\Debug\VentasService.pdb
